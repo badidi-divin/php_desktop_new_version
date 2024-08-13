@@ -1,0 +1,524 @@
+- 09:52:31.140 INFO: --------------------------------------------------------
+- 09:52:31.156 INFO: Started application
+- 09:52:31.156 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 09:52:31.156 INFO: Log level = DEBUG4
+- 09:52:31.156 INFO: Starting Mongoose 3.9c web server
+- 09:52:31.156 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 09:52:31.156 INFO: Index files: index.html,index.php
+- 09:52:31.156 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 09:52:31.156 INFO: CGI pattern: **.php$
+- 09:52:31.156 INFO: Hide files patterns: 
+- 09:52:31.156 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 09:52:31.156 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:52:31.203 INFO: Web server url: http://127.0.0.1:50897/
+- 09:52:31.218 INFO: remote_debugging_port = 53946
+- 09:52:31.234 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53946
+[0729/095231.388:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:52:31.375 DEBUG: App::OnContextInitialized()
+- 09:52:31.375 DEBUG: Window max width/height = 1286/680
+- 09:52:31.390 DEBUG: GetBrowserWindow(): not found, hwnd = 1968068
+- 09:52:31.390 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:52:31.390 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:52:31.390 DEBUG: StoreBrowserWindow(): hwnd = 1968068
+- 09:52:31.016 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=8AE7C95D6FB52624FA01E6BB9AD54370 --mojo-platform-channel-handle=1852 /prefetch:2
+- 09:52:31.500 DEBUG: ClientHandler::OnAfterCreated()
+- 09:52:31.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:52:31.531 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:52:31.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=96D63962FAD490329DECC09B159115CE --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=96D63962FAD490329DECC09B159115CE --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+- 09:52:31.078 DEBUG: OnBrowserCreated()
+[0729/095231.997:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:52:32.468 INFO: GET 302 /
+[0729/095236.438:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:52:36.781 INFO: GET 200 /view/connexion.php
+- 09:52:36.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50897/view/connexion.php
+- 09:52:37.078 DEBUG: WM_DESTROY
+- 09:52:37.078 DEBUG: RemoveBrowserWindow(): hwnd = 1968068
+- 09:52:37.078 INFO: Stopping Mongoose web server
+- 09:52:37.093 DEBUG: Mongoose webserver stopped immediately
+- 09:52:37.093 DEBUG: OnBeforeClose() hwnd=1574466
+- 09:52:37.109 DEBUG: RemoveBrowserWindow(): hwnd = 1574466
+- 09:52:37.109 DEBUG: GetBrowserWindow(): not found, hwnd = 1574466
+- 09:52:37.109 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:52:37.109 DEBUG: Calling CefQuitMessageLoop()
+- 09:52:37.156 INFO: Ended application
+- 09:52:37.156 INFO: --------------------------------------------------------
+- 09:55:10.000 INFO: --------------------------------------------------------
+- 09:55:10.000 INFO: Started application
+- 09:55:10.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 09:55:10.000 INFO: Log level = DEBUG4
+- 09:55:10.000 INFO: Starting Mongoose 3.9c web server
+- 09:55:10.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 09:55:10.000 INFO: Index files: index.html,index.php
+- 09:55:10.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 09:55:10.000 INFO: CGI pattern: **.php$
+- 09:55:10.000 INFO: Hide files patterns: 
+- 09:55:10.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 09:55:10.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:55:10.016 INFO: Web server url: http://127.0.0.1:50902/
+- 09:55:10.016 INFO: remote_debugging_port = 50416
+- 09:55:10.031 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=50416
+[0729/095510.096:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:55:10.125 DEBUG: App::OnContextInitialized()
+- 09:55:10.125 DEBUG: Window max width/height = 1286/680
+- 09:55:10.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1246752
+- 09:55:10.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:55:10.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:55:10.125 DEBUG: StoreBrowserWindow(): hwnd = 1246752
+- 09:55:10.016 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3AC8FE974BEB2F7032C3282A837104F2 --mojo-platform-channel-handle=1784 /prefetch:2
+- 09:55:10.266 DEBUG: ClientHandler::OnAfterCreated()
+- 09:55:10.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:55:10.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:55:10.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A41A55DEAB04F68CA41FE0BEFDA919C9 --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A41A55DEAB04F68CA41FE0BEFDA919C9 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[0729/095510.361:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:55:10.062 DEBUG: OnBrowserCreated()
+- 09:55:10.703 INFO: GET 302 /
+[0729/095510.897:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50902/view/connexion.php (5)
+- 09:55:10.906 INFO: GET 200 /includes/css/bootstrap.css
+- 09:55:10.906 INFO: GET 200 /view/connexion.php
+- 09:55:10.922 INFO: GET 200 /image/10.JPG
+- 09:55:10.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50902/view/connexion.php
+[0729/095515.145:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095520.190:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095525.236:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095530.280:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095535.311:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095540.358:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095545.404:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:55:46.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50902/view/connexion.php
+- 09:55:46.641 INFO: POST 302 /view/connexion.php
+- 09:55:46.875 INFO: GET 200 /view/profile.php
+- 09:55:46.906 INFO: GET 200 /image/22.jpg
+- 09:55:46.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50902/view/profile.php
+[0729/095550.431:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:55:52.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50902/view/profile.php
+- 09:55:52.516 INFO: GET 302 /view/logout.php
+[0729/095552.709:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50902/view/connexion.php (5)
+- 09:55:52.735 INFO: GET 200 /view/connexion.php
+- 09:55:52.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50902/view/connexion.php
+- 09:55:54.438 DEBUG: WM_DESTROY
+- 09:55:54.438 DEBUG: RemoveBrowserWindow(): hwnd = 1246752
+- 09:55:54.438 INFO: Stopping Mongoose web server
+- 09:55:54.438 DEBUG: Mongoose webserver stopped immediately
+- 09:55:54.438 DEBUG: OnBeforeClose() hwnd=2033596
+- 09:55:54.438 DEBUG: RemoveBrowserWindow(): hwnd = 2033596
+- 09:55:54.438 DEBUG: GetBrowserWindow(): not found, hwnd = 2033596
+- 09:55:54.438 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:55:54.438 DEBUG: Calling CefQuitMessageLoop()
+- 09:55:54.500 INFO: Ended application
+- 09:55:54.500 INFO: --------------------------------------------------------
+- 09:59:29.000 INFO: --------------------------------------------------------
+- 09:59:29.000 INFO: Started application
+- 09:59:29.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 09:59:29.000 INFO: Log level = DEBUG4
+- 09:59:29.000 INFO: Starting Mongoose 3.9c web server
+- 09:59:29.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 09:59:29.000 INFO: Index files: index.html,index.php
+- 09:59:29.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 09:59:29.000 INFO: CGI pattern: **.php$
+- 09:59:29.000 INFO: Hide files patterns: 
+- 09:59:29.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 09:59:29.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:59:29.016 INFO: Web server url: http://127.0.0.1:50918/
+- 09:59:29.016 INFO: remote_debugging_port = 56539
+- 09:59:29.016 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56539
+[0729/095929.455:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:59:29.110 DEBUG: App::OnContextInitialized()
+- 09:59:29.110 DEBUG: Window max width/height = 1286/680
+- 09:59:29.110 DEBUG: GetBrowserWindow(): not found, hwnd = 3277542
+- 09:59:29.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:59:29.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:59:29.110 DEBUG: StoreBrowserWindow(): hwnd = 3277542
+- 09:59:29.203 DEBUG: ClientHandler::OnAfterCreated()
+- 09:59:29.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:59:29.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:59:29.000 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=E280E4D96921C7AA7B09B174C5C2072F --mojo-platform-channel-handle=1768 /prefetch:2
+- 09:59:29.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BCB812047ED983D3FAAF826CE4C038AD --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BCB812047ED983D3FAAF826CE4C038AD --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 09:59:29.063 DEBUG: OnBrowserCreated()
+[0729/095929.768:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:59:30.656 INFO: GET 302 /
+[0729/095930.238:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50918/view/connexion.php (5)
+- 09:59:30.875 INFO: GET 200 /includes/css/bootstrap.css
+- 09:59:30.875 INFO: GET 200 /image/10.JPG
+- 09:59:30.875 INFO: GET 200 /view/connexion.php
+- 09:59:30.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50918/view/connexion.php
+[0729/095934.500:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/095939.533:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:59:40.750 DEBUG: WM_DESTROY
+- 09:59:40.750 DEBUG: RemoveBrowserWindow(): hwnd = 3277542
+- 09:59:40.750 INFO: Stopping Mongoose web server
+- 09:59:40.750 DEBUG: Mongoose webserver stopped immediately
+- 09:59:40.750 DEBUG: OnBeforeClose() hwnd=2819012
+- 09:59:40.766 DEBUG: RemoveBrowserWindow(): hwnd = 2819012
+- 09:59:40.766 DEBUG: GetBrowserWindow(): not found, hwnd = 2819012
+- 09:59:40.766 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:59:40.766 DEBUG: Calling CefQuitMessageLoop()
+- 09:59:40.828 INFO: Ended application
+- 09:59:40.828 INFO: --------------------------------------------------------
+- 09:59:44.000 INFO: --------------------------------------------------------
+- 09:59:44.000 INFO: Started application
+- 09:59:44.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 09:59:44.000 INFO: Log level = DEBUG4
+- 09:59:44.000 INFO: Starting Mongoose 3.9c web server
+- 09:59:44.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 09:59:44.000 INFO: Index files: index.html,index.php
+- 09:59:44.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 09:59:44.000 INFO: CGI pattern: **.php$
+- 09:59:44.000 INFO: Hide files patterns: 
+- 09:59:44.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 09:59:44.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:59:44.015 INFO: Web server url: http://127.0.0.1:50924/
+- 09:59:44.015 INFO: remote_debugging_port = 58844
+- 09:59:44.015 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58844
+[0729/095944.219:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 09:59:44.109 DEBUG: App::OnContextInitialized()
+- 09:59:44.109 DEBUG: Window max width/height = 1286/680
+- 09:59:44.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2820102
+- 09:59:44.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:59:44.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:59:44.125 DEBUG: StoreBrowserWindow(): hwnd = 2820102
+- 09:59:44.234 DEBUG: ClientHandler::OnAfterCreated()
+- 09:59:44.234 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:59:44.000 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=02DE667183F8FF46A9FB790405616AFA --mojo-platform-channel-handle=1776 /prefetch:2
+- 09:59:44.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:59:44.016 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=70F15600A87203D11B61B4FE3A287395 --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=70F15600A87203D11B61B4FE3A287395 --renderer-client-id=3 --mojo-platform-channel-handle=2372 /prefetch:1
+[0729/095944.516:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:59:44.062 DEBUG: OnBrowserCreated()
+- 09:59:44.672 INFO: GET 302 /
+[0729/095945.017:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50924/view/connexion.php (5)
+- 09:59:45.890 INFO: GET 200 /includes/css/bootstrap.css
+- 09:59:45.890 INFO: GET 200 /image/10.JPG
+- 09:59:45.890 INFO: GET 200 /view/connexion.php
+- 09:59:45.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50924/view/connexion.php
+- 09:59:48.015 DEBUG: WM_DESTROY
+- 09:59:48.015 DEBUG: RemoveBrowserWindow(): hwnd = 2820102
+- 09:59:48.015 INFO: Stopping Mongoose web server
+- 09:59:48.015 DEBUG: Mongoose webserver stopped immediately
+- 09:59:48.031 DEBUG: OnBeforeClose() hwnd=2490882
+- 09:59:48.031 DEBUG: RemoveBrowserWindow(): hwnd = 2490882
+- 09:59:48.031 DEBUG: GetBrowserWindow(): not found, hwnd = 2490882
+- 09:59:48.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 09:59:48.031 DEBUG: Calling CefQuitMessageLoop()
+- 09:59:48.078 INFO: Ended application
+- 09:59:48.078 INFO: --------------------------------------------------------
+- 10:01:10.000 INFO: --------------------------------------------------------
+- 10:01:10.000 INFO: Started application
+- 10:01:10.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:01:10.000 INFO: Log level = DEBUG4
+- 10:01:10.000 INFO: Starting Mongoose 3.9c web server
+- 10:01:10.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:01:10.000 INFO: Index files: index.html,index.php
+- 10:01:10.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:01:10.000 INFO: CGI pattern: **.php$
+- 10:01:10.000 INFO: Hide files patterns: 
+- 10:01:10.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 10:01:10.016 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:01:10.032 INFO: Web server url: http://127.0.0.1:50930/
+- 10:01:10.032 INFO: remote_debugging_port = 53423
+- 10:01:10.032 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53423
+[0729/100110.417:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:01:10.125 DEBUG: App::OnContextInitialized()
+- 10:01:10.125 DEBUG: Window max width/height = 1286/680
+- 10:01:10.125 DEBUG: GetBrowserWindow(): not found, hwnd = 1639042
+- 10:01:10.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:01:10.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:01:10.125 DEBUG: StoreBrowserWindow(): hwnd = 1639042
+- 10:01:10.016 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=7D51066465342787BB1CD92CA1402E3F --mojo-platform-channel-handle=1784 /prefetch:2
+- 10:01:10.235 DEBUG: ClientHandler::OnAfterCreated()
+- 10:01:10.235 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:01:10.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:01:10.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E99AF6F64DACE80AADEE79CABFC4E6B4 --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E99AF6F64DACE80AADEE79CABFC4E6B4 --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[0729/100110.682:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:01:10.063 DEBUG: OnBrowserCreated()
+- 10:01:10.657 INFO: GET 302 /
+[0729/100111.188:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50930/view/connexion.php (5)
+- 10:01:11.860 INFO: GET 200 /includes/css/bootstrap.css
+- 10:01:11.875 INFO: GET 200 /image/10.JPG
+- 10:01:11.875 INFO: GET 200 /view/connexion.php
+- 10:01:11.938 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50930/view/connexion.php
+[0729/100115.434:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:01:18.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50930/view/connexion.php
+- 10:01:18.172 INFO: POST 302 /view/connexion.php
+- 10:01:18.375 INFO: GET 200 /view/profile.php
+- 10:01:18.391 INFO: GET 200 /image/22.jpg
+- 10:01:18.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50930/view/profile.php
+[0729/100120.479:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100125.508:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100130.556:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100135.596:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:01:35.438 DEBUG: WM_DESTROY
+- 10:01:35.438 DEBUG: RemoveBrowserWindow(): hwnd = 1639042
+- 10:01:35.438 INFO: Stopping Mongoose web server
+- 10:01:35.438 DEBUG: Mongoose webserver stopped immediately
+- 10:01:35.453 DEBUG: OnBeforeClose() hwnd=2885638
+- 10:01:35.453 DEBUG: RemoveBrowserWindow(): hwnd = 2885638
+- 10:01:35.453 DEBUG: GetBrowserWindow(): not found, hwnd = 2885638
+- 10:01:35.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:01:35.453 DEBUG: Calling CefQuitMessageLoop()
+- 10:01:35.516 INFO: Ended application
+- 10:01:35.516 INFO: --------------------------------------------------------
+- 10:02:26.000 INFO: --------------------------------------------------------
+- 10:02:26.000 INFO: Started application
+- 10:02:26.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:02:26.000 INFO: Log level = DEBUG4
+- 10:02:26.000 INFO: Starting Mongoose 3.9c web server
+- 10:02:26.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:02:26.000 INFO: Index files: index.html,index.php
+- 10:02:26.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:02:26.000 INFO: CGI pattern: **.php$
+- 10:02:26.000 INFO: Hide files patterns: 
+- 10:02:26.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 10:02:26.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:02:26.015 INFO: Web server url: http://127.0.0.1:50943/
+- 10:02:26.031 INFO: remote_debugging_port = 52839
+- 10:02:26.031 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=52839
+[0729/100226.732:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:02:26.125 DEBUG: App::OnContextInitialized()
+- 10:02:26.125 DEBUG: Window max width/height = 1286/680
+- 10:02:26.125 DEBUG: GetBrowserWindow(): not found, hwnd = 264350
+- 10:02:26.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:02:26.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:02:26.125 DEBUG: StoreBrowserWindow(): hwnd = 264350
+- 10:02:26.219 DEBUG: ClientHandler::OnAfterCreated()
+- 10:02:26.219 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:02:26.234 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:02:26.016 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=52073EDC03BD91B3005C22EE247E73A8 --mojo-platform-channel-handle=1780 /prefetch:2
+- 10:02:26.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B08FEBAC1230093AC50FB5DB4C756426 --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B08FEBAC1230093AC50FB5DB4C756426 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+- 10:02:27.062 DEBUG: OnBrowserCreated()
+[0729/100227.028:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:02:27.656 INFO: GET 302 /
+[0729/100227.499:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50943/view/connexion.php (5)
+- 10:02:27.859 INFO: GET 200 /includes/css/bootstrap.css
+- 10:02:27.875 INFO: GET 200 /image/10.JPG
+- 10:02:27.875 INFO: GET 200 /view/connexion.php
+- 10:02:27.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50943/view/connexion.php
+[0729/100231.777:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:02:35.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50943/view/connexion.php
+- 10:02:35.094 INFO: POST 302 /view/connexion.php
+- 10:02:35.297 INFO: GET 200 /view/profile.php
+- 10:02:35.312 INFO: GET 200 /image/22.jpg
+- 10:02:35.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50943/view/profile.php
+[0729/100236.812:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:02:41.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50943/view/profile.php
+[0729/100241.847:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100242.040:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50943/view/inscription.php (5)
+- 10:02:42.406 INFO: GET 200 /view/inscription.php
+- 10:02:42.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50943/view/inscription.php
+[0729/100246.889:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100251.939:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:02:52.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50943/view/inscription.php
+- 10:02:52.000 INFO: GET 200 /view/Profile.php
+- 10:02:52.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50943/view/Profile.php
+[0729/100256.952:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100301.997:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:03:06.031 DEBUG: WM_DESTROY
+- 10:03:06.031 DEBUG: RemoveBrowserWindow(): hwnd = 264350
+- 10:03:06.031 INFO: Stopping Mongoose web server
+- 10:03:06.031 DEBUG: Mongoose webserver stopped immediately
+- 10:03:06.031 DEBUG: OnBeforeClose() hwnd=2230104
+- 10:03:06.031 DEBUG: RemoveBrowserWindow(): hwnd = 2230104
+- 10:03:06.031 DEBUG: GetBrowserWindow(): not found, hwnd = 2230104
+- 10:03:06.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:03:06.031 DEBUG: Calling CefQuitMessageLoop()
+- 10:03:06.109 INFO: Ended application
+- 10:03:06.109 INFO: --------------------------------------------------------
+- 10:04:15.015 INFO: --------------------------------------------------------
+- 10:04:15.015 INFO: Started application
+- 10:04:15.015 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:04:15.015 INFO: Log level = DEBUG4
+- 10:04:15.015 INFO: Starting Mongoose 3.9c web server
+- 10:04:15.015 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:04:15.015 INFO: Index files: index.html,index.php
+- 10:04:15.015 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:04:15.015 INFO: CGI pattern: **.php$
+- 10:04:15.015 INFO: Hide files patterns: 
+- 10:04:15.015 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 10:04:15.015 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:04:15.031 INFO: Web server url: http://127.0.0.1:50958/
+- 10:04:15.031 INFO: remote_debugging_port = 55306
+- 10:04:15.031 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55306
+[0729/100415.226:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:04:15.125 DEBUG: App::OnContextInitialized()
+- 10:04:15.125 DEBUG: Window max width/height = 1286/680
+- 10:04:15.125 DEBUG: GetBrowserWindow(): not found, hwnd = 3803144
+- 10:04:15.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:04:15.125 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 10:04:15.125 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 10:04:15.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:04:15.125 DEBUG: StoreBrowserWindow(): hwnd = 3803144
+- 10:04:15.000 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=93E1093E09BE88217389FFBA5FA015C5 --mojo-platform-channel-handle=1772 /prefetch:2
+- 10:04:15.250 DEBUG: ClientHandler::OnAfterCreated()
+- 10:04:15.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:04:15.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:04:15.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=729633B851126665C2A99FBC78DF32AA --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=729633B851126665C2A99FBC78DF32AA --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[0729/100415.507:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:04:15.078 DEBUG: OnBrowserCreated()
+- 10:04:15.672 INFO: GET 302 /
+[0729/100416.016:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50958/view/connexion.php (5)
+- 10:04:16.875 INFO: GET 200 /includes/css/bootstrap.css
+- 10:04:16.890 INFO: GET 200 /image/10.JPG
+- 10:04:16.922 INFO: GET 200 /view/connexion.php
+- 10:04:16.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50958/view/connexion.php
+[0729/100420.266:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:04:23.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50958/view/connexion.php
+- 10:04:23.500 INFO: POST 302 /view/connexion.php
+- 10:04:23.734 INFO: GET 200 /view/profile.php
+- 10:04:23.734 INFO: GET 200 /image/22.jpg
+- 10:04:23.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50958/view/profile.php
+[0729/100425.313:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100430.363:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:04:30.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50958/view/profile.php
+- 10:04:30.547 INFO: GET 200 /view/formation.php
+- 10:04:30.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50958/view/formation.php
+- 10:04:34.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50958/view/formation.php
+- 10:04:34.312 INFO: GET 200 /view/imprimer-formation.php
+- 10:04:34.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50958/view/imprimer-formation.php
+[0729/100435.413:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:04:36.578 DEBUG: OnContextCreated()
+[0729/100440.453:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100445.492:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100450.521:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:04:52.687 DEBUG: WM_DESTROY
+- 10:04:52.687 DEBUG: RemoveBrowserWindow(): hwnd = 3803144
+- 10:04:52.687 INFO: Stopping Mongoose web server
+- 10:04:52.687 DEBUG: Mongoose webserver stopped immediately
+- 10:04:52.687 DEBUG: OnBeforeClose() hwnd=5507088
+- 10:04:52.687 DEBUG: RemoveBrowserWindow(): hwnd = 5507088
+- 10:04:52.687 DEBUG: GetBrowserWindow(): not found, hwnd = 5507088
+- 10:04:52.687 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:04:52.687 DEBUG: Calling CefQuitMessageLoop()
+- 10:04:52.734 INFO: Ended application
+- 10:04:52.734 INFO: --------------------------------------------------------
+- 10:07:34.000 INFO: --------------------------------------------------------
+- 10:07:34.000 INFO: Started application
+- 10:07:34.000 INFO: Logging to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:07:34.000 INFO: Log level = DEBUG4
+- 10:07:34.000 INFO: Starting Mongoose 3.9c web server
+- 10:07:34.000 INFO: WWW directory: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:07:34.000 INFO: Index files: index.html,index.php
+- 10:07:34.000 INFO: CGI interpreter: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:07:34.000 INFO: CGI pattern: **.php$
+- 10:07:34.000 INFO: Hide files patterns: 
+- 10:07:34.000 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\DIVINB~1\AppData\Local\Temp\
+- 10:07:34.000 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:07:34.016 INFO: Web server url: http://127.0.0.1:50973/
+- 10:07:34.031 INFO: remote_debugging_port = 55447
+- 10:07:34.031 DEBUG: Command line string for the browser process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=55447
+[0729/100734.265:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:07:34.109 DEBUG: App::OnContextInitialized()
+- 10:07:34.125 DEBUG: Window max width/height = 1286/680
+- 10:07:34.125 DEBUG: GetBrowserWindow(): not found, hwnd = 2296030
+- 10:07:34.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:07:34.125 WARNING: Setting icon from settings file failed (ICON_BIG)
+- 10:07:34.125 WARNING: Setting icon from settings file failed (ICON_SMALL)
+- 10:07:34.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:07:34.125 DEBUG: StoreBrowserWindow(): hwnd = 2296030
+- 10:07:34.000 DEBUG: Command line string for the gpu-process process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x3185 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1338 --gpu-driver-date=1-20-2022 --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=1BD03B0F5AA140B3E548EF2FE0D33285 --mojo-platform-channel-handle=1788 /prefetch:2
+- 10:07:34.250 DEBUG: ClientHandler::OnAfterCreated()
+- 10:07:34.250 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:07:34.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:07:34.000 DEBUG: Command line string for the renderer process: "C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C40D0907EBEDE70D78F6441DD9F9BD83 --lang=en-US --lang=en-US --log-file="C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C40D0907EBEDE70D78F6441DD9F9BD83 --renderer-client-id=3 --mojo-platform-channel-handle=2360 /prefetch:1
+[0729/100734.546:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:07:34.062 DEBUG: OnBrowserCreated()
+- 10:07:34.672 INFO: GET 302 /
+[0729/100735.046:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50973/view/connexion.php (5)
+- 10:07:35.875 INFO: GET 200 /includes/css/bootstrap.css
+- 10:07:35.875 INFO: GET 200 /image/10.JPG
+- 10:07:35.891 INFO: GET 200 /view/connexion.php
+- 10:07:35.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/connexion.php
+[0729/100739.292:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:07:42.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/connexion.php
+- 10:07:42.563 INFO: POST 302 /view/connexion.php
+- 10:07:42.766 INFO: GET 200 /view/profile.php
+- 10:07:42.781 INFO: GET 200 /image/22.jpg
+- 10:07:42.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/profile.php
+[0729/100744.339:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:07:45.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/profile.php
+- 10:07:45.797 INFO: GET 200 /view/formation.php
+- 10:07:45.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/formation.php
+- 10:07:47.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/formation.php
+- 10:07:48.063 INFO: GET 200 /view/imprimer-formation.php
+- 10:07:48.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/imprimer-formation.php
+[0729/100749.384:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:07:50.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/imprimer-formation.php
+- 10:07:51.063 INFO: GET 200 /view/formation.php
+- 10:07:51.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/formation.php
+- 10:07:53.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/formation.php
+[0729/100753.516:INFO:CONSOLE(5)] "The key "width-device-width" is not recognized and ignored.", source: http://127.0.0.1:50973/view/edit-formation.php?id=1 (5)
+- 10:07:53.359 INFO: GET 200 /view/edit-formation.php?id=1
+- 10:07:53.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/edit-formation.php?id=1
+[0729/100754.431:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:07:56.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/edit-formation.php?id=1
+- 10:07:56.703 INFO: GET 200 /view/apprenant.php
+- 10:07:56.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php
+[0729/100759.462:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:08:01.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:08:01.797 INFO: GET 302 /view/apprenant.php?motcle=&export2=
+- 10:08:02.984 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50973/view/export2.php
+- 10:08:02.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:08:02.984 INFO: About to download a file: MyData.xls
+- 10:08:02.000 INFO: GET 200 /view/export2.php
+[0729/100804.501:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:08:06.422 INFO: Download completed, saved to: C:\Users\DIVIN BADIDI\Desktop\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\MyData.xls
+[0729/100809.552:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100814.569:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100819.588:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100824.617:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100829.662:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100834.708:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100839.753:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:08:42.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:08:43.906 INFO: GET 302 /view/apprenant.php?motcle=&export2=
+- 10:08:43.094 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:50973/view/export2.php
+- 10:08:43.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:08:43.094 INFO: About to download a file: MyData.xls
+- 10:08:43.109 INFO: GET 200 /view/export2.php
+[0729/100844.791:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100849.836:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:08:51.172 INFO: Download completed, saved to: C:\Users\DIVIN BADIDI\Desktop\MyData.xls
+[0729/100854.874:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100859.902:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100904.989:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100910.033:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100915.089:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100920.131:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:21.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:09:21.219 INFO: GET 200 /view/apprenant.php?motcle=FE61A307%2F24
+- 10:09:21.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php?motcle=FE61A307%2F24
+- 10:09:23.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php?motcle=FE61A307%2F24
+- 10:09:24.094 INFO: GET 200 /view/apprenant.php?motcle=
+- 10:09:24.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php?motcle=
+[0729/100925.163:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:26.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php?motcle=
+- 10:09:26.531 INFO: GET 200 /view/apprenant.php
+- 10:09:26.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:09:28.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:09:28.250 INFO: GET 200 /view/imprimer-apprenant.php
+- 10:09:28.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/imprimer-apprenant.php
+- 10:09:30.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/imprimer-apprenant.php
+[0729/100930.182:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:30.141 INFO: GET 200 /view/apprenant.php
+- 10:09:30.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:09:31.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/apprenant.php
+- 10:09:31.703 INFO: GET 200 /view/paiement.php
+- 10:09:31.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/paiement.php
+[0729/100935.239:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:35.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/paiement.php
+- 10:09:35.750 INFO: GET 200 /view/bonus.php
+- 10:09:35.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/bonus.php
+- 10:09:40.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50973/view/bonus.php
+[0729/100940.271:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:40.172 INFO: GET 200 /view/profile.php
+- 10:09:40.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50973/view/profile.php
+[0729/100945.276:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+[0729/100950.306:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 10:09:54.781 DEBUG: WM_DESTROY
+- 10:09:54.781 DEBUG: RemoveBrowserWindow(): hwnd = 2296030
+- 10:09:54.781 INFO: Stopping Mongoose web server
+- 10:09:54.781 DEBUG: Mongoose webserver stopped immediately
+- 10:09:54.781 DEBUG: OnBeforeClose() hwnd=2230466
+- 10:09:54.781 DEBUG: RemoveBrowserWindow(): hwnd = 2230466
+- 10:09:54.781 DEBUG: GetBrowserWindow(): not found, hwnd = 2230466
+- 10:09:54.781 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:09:54.781 DEBUG: Calling CefQuitMessageLoop()
+- 10:09:55.844 INFO: Ended application
+- 10:09:55.844 INFO: --------------------------------------------------------
